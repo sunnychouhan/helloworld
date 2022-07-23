@@ -18,7 +18,7 @@ pipeline {
         stage ("Auto-Increment version"){
 
              steps {
-                sh "mvn build-helper:parse-version versions:set -DnewVersion='\${parsedVersion.majorVersion}.\${parsedVersion.minorVersion}.\${parsedVersion.nextIncrementalVersion}.${parsedVersion.qualifier}'"
+                sh 'mvn build-helper:parse-version versions:set -DnewVersion='\${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.nextIncrementalVersion}.${parsedVersion.qualifier}
              }
         }
 
