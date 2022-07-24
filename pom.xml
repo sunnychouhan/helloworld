@@ -46,7 +46,7 @@
 		<repository>
 			<id>central</id>
 			<name>MyFirstLinuxVM-releases</name>
-			<url>http://192.168.1.163:8081/artifactory/sun-test-release-local</url>
+			<url>http://192.168.1.163:8082/artifactory/sun-test-release-local</url>
 		</repository>
 	</distributionManagement>
 
