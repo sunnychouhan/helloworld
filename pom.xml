@@ -36,6 +36,15 @@
 		</dependency>
 	</dependencies>
 
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>MyFirstLinuxVM-snapshots</name>
+			<url>http://192.168.1.163:8082/artifactory/sun-test-repo</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<build>
 		<plugins>
 			<plugin>
