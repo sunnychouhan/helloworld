@@ -16,6 +16,7 @@
 		<java.version>11</java.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<project.scm.id>github.com</project.scm.id>
 	</properties>
 	<dependencies>
 		<dependency>
