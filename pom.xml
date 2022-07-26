@@ -39,7 +39,7 @@
 		<connection>scm:git:https://github.com/sunnychouhan/helloworld.git</connection>
 		<developerConnection>scm:git:https://github.com/sunnychouhan/helloworld.git</developerConnection>
 		<url>https://github.com/sunnychouhan/helloworld</url>
-		<tag>0.0.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 
@@ -49,10 +49,15 @@
 			<name>MyFirstLinuxVM-snapshots</name>
 			<url>http://192.168.1.163:8082/artifactory/sun-test-repo</url>
 		</snapshotRepository>
+<!--		<repository>-->
+<!--			<id>central</id>-->
+<!--			<name>MyFirstLinuxVM-releases</name>-->
+<!--			<url>http://192.168.1.163:8082/artifactory/sun-test-release-local</url>-->
+<!--		</repository>-->
 		<repository>
-			<id>central</id>
-			<name>MyFirstLinuxVM-releases</name>
-			<url>http://192.168.1.163:8082/artifactory/sun-test-release-local</url>
+			<id>github.com</id>
+			<name>GitHub</name>
+			<url>https://github.com/sunnychouhan/helloworld</url>
 		</repository>
 	</distributionManagement>
 
