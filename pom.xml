@@ -49,16 +49,12 @@
 			<name>MyFirstLinuxVM-snapshots</name>
 			<url>http://192.168.1.163:8082/artifactory/sun-test-repo</url>
 		</snapshotRepository>
-<!--		<repository>-->
-<!--			<id>central</id>-->
-<!--			<name>MyFirstLinuxVM-releases</name>-->
-<!--			<url>http://192.168.1.163:8082/artifactory/sun-test-release-local</url>-->
-<!--		</repository>-->
 		<repository>
-			<id>github.com</id>
-			<name>GitHub</name>
-			<url>https://github.com/sunnychouhan/helloworld</url>
+			<id>central</id>
+			<name>MyFirstLinuxVM-releases</name>
+			<url>http://192.168.1.163:8082/artifactory/sun-test-release-local</url>
 		</repository>
+
 	</distributionManagement>
 
 	<build>
