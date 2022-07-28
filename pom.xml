@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.chouhan.uk</groupId>
 	<artifactId>helloworld</artifactId>
-	<version>0.0.12-SNAPSHOT</version>
+	<version>0.0.12</version>
 	<name>helloworld</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -39,7 +39,7 @@
 		<connection>scm:git:https://github.com/sunnychouhan/helloworld.git</connection>
 		<developerConnection>scm:git:https://github.com/sunnychouhan/helloworld.git</developerConnection>
 		<url>https://github.com/sunnychouhan/helloworld</url>
-		<tag>HEAD</tag>
+		<tag>0.0.12</tag>
 	</scm>
 
 
